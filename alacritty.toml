@@ -1,18 +1,30 @@
+# Import a specific theme configuration file.
 import = [
   "~/.config/alacritty/themes/themes/catppuccin_mocha.toml"
 ]
 
+# Set environment variables.
 [env]
+# TERM sets the terminal type to "xterm-256color", which supports 256 colors.
 TERM = "xterm-256color"
 
+# Configure window settings.
 [window]
+# padding.x sets the horizontal padding within the terminal window to 10 pixels.
 padding.x = 10
+# padding.y sets the vertical padding within the terminal window to 10 pixels.
 padding.y = 10
 
+# Set the opacity of the terminal window to 0.8 (80% opaque).
 opacity = 0.8
+# Enable blur effects in the terminal window.
 blur = true
 
+# Configure the behavior of the Option key (Alt key on some keyboards).
+# Setting it to "Both" means both left and right Option keys will function as the Alt key.
 option_as_alt = "Both"
 
+# Configure font settings.
 [font]
+# normal.family sets the font family to "MesloLGS Nerd Font Mono".
 normal.family = "MesloLGS Nerd Font Mono"
